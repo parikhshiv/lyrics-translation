@@ -28,6 +28,11 @@
     "browserify-incremental": "^3.0.1"
   },
   "dependencies": {
+    "babel-eslint": "^4.1.8",
+    "eslint": "^1.10.3",
+    "eslint-config-forio": "git+https://github.com/drosen0/eslint-config-forio.git",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.2.0",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
     "react-redux": "^4.0.0",

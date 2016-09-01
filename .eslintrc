@@ -1,0 +1,52 @@
+{
+    "ecmaFeatures": {
+        "jsx": true,
+        "modules": true
+    },
+    "env": {
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "plugins": [
+        "react",
+        "babel"
+    ],
+    "rules": {
+        "arrow-parens": 0,
+        "babel/arrow-parens": 2,
+        "generator-star-spacing": 0,
+        "babel/generator-star-spacing": 1,
+        "new-cap": 0,
+        "babel/new-cap": [2, {
+            "capIsNewExceptions": [
+                "$.Deferred"
+            ]
+        }],
+        "babel/no-await-in-loop": 1,
+        "object-curly-spacing": 0,
+        "babel/object-curly-spacing": [2, "always"],
+        "object-shorthand": 0,
+        "babel/object-shorthand": [1, "methods"],
+        "arrow-parens": 2,
+        "arrow-spacing": [2, {
+            "before": true,
+            "after": true
+        }],
+        "constructor-super": 2,
+        "generator-star-spacing": 1,
+        "no-class-assign": 0,
+        "no-const-assign": 2,
+        "no-this-before-super": 0,
+        "no-var": 1,
+        "object-curly-spacing": [2, "always"],
+        "object-shorthand": [1, "methods"],
+        "prefer-const": 0,
+        "prefer-spread": 0,
+        "prefer-reflect": 0,
+        "require-yield": 0,
+        "strict": [1, "never"],
+        "no-trailing-spaces": 1
+    }
+}
